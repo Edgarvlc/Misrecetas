@@ -5,19 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test CSS</title>
 
-    <style>.blue-box {
-        background-color: blue;
-        padding: 10px;
-        font-size: 20px;
-    }
-    </style>
+    <style>
 
+        /* comentario CSS */
+
+        div {background-color: red;}
+
+        div > p {background-color: blue;} 
+
+        div p {background-color: seagreen;}
+
+        /*p {background-
+
+
+    </style>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <div style="background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    
+
+    <div>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, temporibus.</span>
+        <p>hijo</p>
+        <span>
+            <p>Segundo P</p>
+        </span>
+    </div>
     
 </body>
 </html>
