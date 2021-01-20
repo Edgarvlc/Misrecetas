@@ -1,0 +1,23 @@
+TEXTO
+.texto {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    /*font: bold 24px verdana; esto se usa para no usar tantas lineas, pero es más ordenado no hacerlo asi.*/
+    text-align: center;    /*centrar el texto*/
+    line-height: 1.2;   /*separación entre lineas arriba y abajo*/
+    text-decoration: underline; /*es para decorar el subrayado del texto*/
+
+    /* si usamos *(asterisco) al inicio, engloba todo, como por ejemplo = a, div, span, etc y todos los estilos, se aplicaran*/
+
+COLORES
+    /*text-decoration-color: red;*/ 
+    color
+
+}
+
+TAMAÑOS
+
+
+/* tamaños = px % em rem */
