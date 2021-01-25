@@ -1,0 +1,47 @@
+div {
+    background-color: blue;
+    color: cornsilk;
+}
+
+div.hover:hover {
+    background-color: blue;
+    color: chocolate;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* First-child, last child, nth-child */
+
+div.child {
+    background-color: cyan;
+}
+
+div.child p {
+    background-color: darkcyan;
+}
+
+ /* div.child p:first-child {
+    background-color: darkgreen;
+ } */
+
+ div.child p:last-child {
+     background-color: darkred;
+ }
+
+ div.margen p {
+     padding-bottom: 40%px;
+ }
+
+ div.margen p:last-child {
+     padding-bottom: 0;
+ }
+
+ div.nth {
+     background-color: darkred;
+ }
+
+ /* nth-child(1) -> first-child */
+
+ /*div.nth p:nth
