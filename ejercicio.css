@@ -12,13 +12,9 @@
 
 .hijo {
     background-color: yellow;
-    border: 2px solid black;
+    border: 1px solid black;
     height: 100px;
     width: 100px;
-    display: flex;
+    flex-grow: 1; /* los elementos no crecen, tamaño normal por defecto si el numero es 0 */
 }
 
-.derecha {
-    background-color: yellow;
-    margin-left: auto;
-}
