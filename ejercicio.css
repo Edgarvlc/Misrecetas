@@ -4,17 +4,71 @@
     height: 500px;
 
     display: flex;
-    /*justify-content: center; /* "horizontal" */
-    flex-direction: row;
-    /*align-items: center; /* vertical */
-    align-content: center; /* vertical varias lineas */
+    overflow-x: scroll;
+
+    /* flex-wrap: wrap; (para que los bloques salten a la siguiente linea) */
+    /* align-content: center; */ /* mover bloques de forma vertical varias lineas */
+    /*justify-content: center; /* " mover los bloques de forma horizontal" */ 
 }
 
 .hijo {
     background-color: yellow;
     border: 1px solid black;
-    height: 100px;
     width: 100px;
-    flex-grow: 1; /* los elementos no crecen, tamaño normal por defecto si el numero es 0 */
+    height: 100px;
+
+    /* flex-shrink: 0; (para que no se contraiga, que se expanda en su tamaño normal) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.padre1 {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    
+    /* align-content: center; */ /* mover bloques de forma vertical varias lineas */
+    /*justify-content: center; /* " mover los bloques de forma horizontal" */
+    /*align-items: center; /* vertical */
+    /* align-items: stretch; */
+}
+
+.hijo1 {
+    background-color: yellow;
+    border: 1px solid black;
+
+    width: 100px;
+    flex-grow: 1;
+    
+
+
+    /* flex-grow: 0; */ /* los elementos no crecen, tamaño normal por defecto si el numero es 0 */
+    /* flex-shrink: 1; */ /* por defecto 1 */
+
+    /* flex-basis: 100px; */ /* = width (row) height (column) */
+    /* width: 100px; */
+    /* height: 100px; */
+}
+
+.abajo {
+    align-self: flex-end;
+    position: relative;
 }
 
