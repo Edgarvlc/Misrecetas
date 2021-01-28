@@ -12,13 +12,45 @@
 }
 
 .hijo {
-    background-color: yellow;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
+    background-color: red;
+    width: 70%;
+    margin-right: 10px;
 
     /* flex-shrink: 0; (para que no se contraiga, que se expanda en su tamaño normal) */
 }
+
+
+
+.primo {
+    background-color: green;
+    width: 30%;
+}
+
+
+
+.container {
+    background-color: blue;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: : 0 1em;
+
+    /* width: 100% */
+}
+
+/* @media (max-width: 800px) {
+    .container {background-color: yellow;}
+}
+
+@media (win-width: 600px) and (max-width: 799px) {
+    .container {background-color: yellow;}
+}
+
+@media (max-width: 599px) {
+    .container {background-color: green;}
+} */
+
+
 
 
 
